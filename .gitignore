@@ -40,3 +40,5 @@ htmlcov/
 *.log
 *.tmp
 *.bak
+
+!.env.sample
