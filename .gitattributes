@@ -1,0 +1,10 @@
+﻿* text=auto
+
+# Python 소스는 LF 고정(운영체제 섞여도 안전)
+*.py text eol=lf
+
+# 배치 스크립트는 Windows 표준
+*.bat text eol=crlf
+
+# 쉘 스크립트는 LF
+*.sh text eol=lf
